@@ -12,7 +12,7 @@ yarn add --dev concurrently electron electron-builder wait-on
 ```
 These command lines come from the [official React website](https://reactjsexample.com/electron-integration-with-react/).
 
-Then clone the project with ```git clone``` in a separate folder, and move all the files towards the ```bet-app-desktop``` where the dependencies are installed.
+Then clone the project with ```git clone``` in a separate folder, and move all the files (including the ```.git``` folder) towards the ```bet-app-desktop``` where the dependencies are installed.
 
 # Available commands
 ```yarn start``` : start the app for development (you can open an inspector by ```View > Toggle Developper Tools```).
