@@ -12,6 +12,8 @@ Then run ```npm i``` to install all the necesary dependencies from ```package.js
 
 ```yarn build``` : generate the installer.
 
+```json-server --w db.json``` : not used for the moment.
+
 # How the project has been initialized
 
 ```
@@ -19,6 +21,8 @@ npx create-react-app bet-app-desktop --template typescript
 cd bet-app-desktop/
 yarn add cross-env electron-is-dev
 yarn add --dev concurrently electron electron-builder wait-on
+yarn add -s react-redux redux redux-thunk redux-devtools-extension
+npm i -g json-server
 ```
 These command lines come from the [official React website](https://reactjsexample.com/electron-integration-with-react/).
 
