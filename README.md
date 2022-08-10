@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Bet App (for desktop)
+
+Was developped and build using Electron, React and typescript.
+
+# How to start the project
+
+First clone the project using ```git clone```.\
+Then run ```npm i``` to install all the necesary dependencies from ```package.json```.
+
+# Available commands
+```yarn start``` : start the app for development (you can open an inspector by ```View > Toggle Developper Tools```).
+
+```yarn build``` : generate the installer.
+
+```json-server --w db.json``` : not used for the moment.
+
+# How the project has been initialized
+
+```
+npx create-react-app bet-app-desktop --template typescript
+cd bet-app-desktop/
+yarn add cross-env electron-is-dev
+yarn add --dev concurrently electron electron-builder wait-on
+yarn add -s react-redux redux redux-thunk redux-devtools-extension
+npm i -g json-server
+```
+These command lines come from the [official React website](https://reactjsexample.com/electron-integration-with-react/).
+
+# Default React.js documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
