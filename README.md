@@ -2,7 +2,17 @@
 
 Was developped and build using Electron, React and typescript.
 
-# How to start the project from scratch
+# How to start the project
+
+First clone the project using ```git clone```.\
+Then run ```npm i``` to install all the necesary dependencies from ```package.json```.
+
+# Available commands
+```yarn start``` : start the app for development (you can open an inspector by ```View > Toggle Developper Tools```).
+
+```yarn build``` : generate the installer.
+
+# How the project has been initialized
 
 ```
 npx create-react-app bet-app-desktop --template typescript
@@ -11,13 +21,6 @@ yarn add cross-env electron-is-dev
 yarn add --dev concurrently electron electron-builder wait-on
 ```
 These command lines come from the [official React website](https://reactjsexample.com/electron-integration-with-react/).
-
-Then clone the project with ```git clone``` in a separate folder, and move all the files (replacing the older ```.git``` folder by the new one) towards the ```bet-app-desktop``` where the dependencies are installed.
-
-# Available commands
-```yarn start``` : start the app for development (you can open an inspector by ```View > Toggle Developper Tools```).
-
-```yarn build``` : generate the installer.
 
 # Default React.js documentation
 
