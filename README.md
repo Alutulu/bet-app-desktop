@@ -2,7 +2,7 @@
 
 Was developped and build using Electron, React and typescript.
 
-# How to start the project
+# How to start the project from scratch
 
 ```
 npx create-react-app bet-app-desktop --template typescript
