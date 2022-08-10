@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# data bases
+db.json
+
 # production
 /build
 /dist
