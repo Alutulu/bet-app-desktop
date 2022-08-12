@@ -1,6 +1,7 @@
 # Bet App (for desktop)
 
-Was developped and build using Electron, React and typescript.
+Was developped and build with Electron, React.
+Uses Typescript, Redux and Json-server.
 
 # How to start the project
 
