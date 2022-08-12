@@ -1,7 +1,7 @@
 # Bet App (for desktop)
 
 Was developped and build with Electron, React.\
-Uses Typescript, Redux and Json-server.
+Uses Typescript, Sass, Redux and Json-server.
 
 This is a front-end oriented project.
 
@@ -25,6 +25,7 @@ cd bet-app-desktop/
 yarn add cross-env electron-is-dev
 yarn add --dev concurrently electron electron-builder wait-on
 yarn add -s react-redux redux redux-thunk redux-devtools-extension
+npm i -s react-router-dom sass
 npm i -g json-server
 ```
 These command lines come from the [official React website](https://reactjsexample.com/electron-integration-with-react/).
